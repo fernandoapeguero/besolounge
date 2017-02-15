@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BesoLounge</string>
+    <string name="comida">Spanish,Dominican</string>
+    <string name="cocina">Cuisines</string>
+    <string name="rating">Rating: 4.4 ****</string>
+    <string name="hora">Hours Of Operation</string>
+</resources>

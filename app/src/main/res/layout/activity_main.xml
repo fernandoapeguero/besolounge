@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.onemanarmy.besolounge.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/besolounge"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:fontFamily="cursive"
+       android:gravity="center"
+        android:text="Beso Lounge"
+        android:textColor="@android:color/white"
+        android:textSize="56sp"/>
+
+
+        <ImageButton
+
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:src="@drawable/phoneblack"
+            android:scaleType="centerInside"
+            android:background="?attr/selectableItemBackground"/>
+
+
+    <TextView
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:text="Address : 320 E 204th St, Bronx, NY 10467"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#000000" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:id="@+id/cuisine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/cocina"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <TextView
+
+            android:id="@+id/comida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cuisine"
+            android:paddingLeft="16dp"
+            android:text="@string/comida"
+            android:textAppearance="?android:textAppearanceSmall" />
+
+        <TextView
+
+            android:text="@string/rating"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"
+            android:textColor="#000000"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@id/comida"
+            android:padding="16dp"
+            android:textColor="#000000"
+            android:textAppearance="?android:textAppearanceMedium"
+        android:text="Hookah lounge with a lively vibe offering a full bar, DJ booth , TVs, plus a dinner menu. The place is roomy and it usually has a good crowd, the staff is excellent! Great music and Attractive females."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+        </RelativeLayout>
+
+
+    <TextView
+        android:background="#000000"
+        android:text="@string/hora"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="@android:color/white"/>
+
+
+    <TextView
+        android:paddingTop="16dp"
+        android:text="Thursday : 6:00 pm - 1:00 Am   "
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:paddingTop="16dp"
+        android:text="Friday : 6:00 pm - 4:00 Am   "
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:paddingTop="16dp"
+        android:text="Saturday : 6:00 pm - 12:00 Am   "
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
