@@ -23,7 +23,7 @@
         android:background="#212121"
         android:fontFamily="cursive"
        android:gravity="center"
-        android:text="Beso Lounge"
+        android:text="@string/beso"
         android:textColor="@android:color/white"
         android:textSize="56sp"/>
 
@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:paddingLeft="16dp"
         android:paddingTop="16dp"
-        android:text="Address : 320 E 204th St, Bronx, NY 10467"
+        android:text="@string/address"
         android:textAppearance="?android:textAppearanceSmall"
         android:textColor="#000000" />
 
